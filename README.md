@@ -1,80 +1,88 @@
-# Landing Page
+# Museum Landing Page
 
-A responsive landing page template created as a learning project to practice modern frontend development.
+## Introduction
 
-## Description
+Welcome to the **Museum Landing Page** project, according to [Figma design](https://www.figma.com/file/cRBCqE06cDrY3s4jX7h3iY/%D0%9D%D0%90%D0%9C%D0%A3-(Edit)?node-id=0%3A1). This is a single-page website designed to showcase various aspects of a museum, including its exhibitions, events, and contact details. The landing page is crafted to offer an engaging and informative experience for visitors, using modern web technologies and adhering to design specifications.
 
-This project demonstrates:
-- a responsive layout that works well on mobile, tablet, and desktop screens
-- semantic HTML structure
-- organized SCSS architecture with component-based structure
-- use of Flexbox and CSS Grid for layout
-- reusable styles via mixins and variables
-- code quality control with linters
+### Key Features
 
-## Technologies
+- **Responsive Design**: The page is optimized for multiple screen sizes, including desktop (1280px), tablet (640px), and mobile (>320px).
+- **Header with Hamburger Menu**: Provides a navigable interface that adapts to different screen sizes.
+- **Exhibitions and Events Sections**: Features blocks for current exhibitions and events, with interactive elements and detailed information.
+- **Gallery Slider**: Showcases images of exhibits and museum highlights with a smooth, interactive slider.
+- **Subscription Block**: Allows visitors to sign up for updates and newsletters.
+- **Footer**: Contains links to social media, contact information, and additional resources.
 
-- HTML5
-- SCSS (Sass)
-- CSS3
-- Flexbox
-- CSS Grid
-- Media Queries
-- SCSS Mixins
-- Parcel / Mate Academy scripts
-- Stylelint
-- ESLint
+The project leverages technologies such as HTML5, CSS3, Sass, JavaScript (ES6), and Parcel for building and optimizing the website. The design and implementation follow the [Figma design](https://www.figma.com/file/cRBCqE06cDrY3s4jX7h3iY/%D0%9D%D0%90%D0%9C%D0%A3-(Edit)?node-id=0%3A1) and utilize fonts [IBM Plex Sans](https://fonts.google.com/specimen/IBM+Plex+Sans?query=ibm) and [Montserrat](https://fonts.google.com/specimen/Montserrat?query=mon).
 
-## Project Structure
+## Challenges
 
-- `src/index.html` — main markup
-- `src/styles/main.scss` — primary SCSS file
-- `src/styles/style.scss` — additional styles
-- `src/styles/blocks/` — page blocks: `header`, `categories`, `product`, `contact`, etc.
-- `src/scripts/main.js` — main JavaScript file
-- `src/images/` — media and graphics for the page
+As this was my first experience with creating a comprehensive landing page for a museum, several challenges emerged throughout the development process. One notable challenge was implementing a fully responsive design that accurately reflects the Figma mockups.
 
-## Key Features
+### Key Challenges:
 
-- responsive design for multiple screen sizes
-- clean and readable SCSS structure
-- modular styling organized by blocks
-- fast local development and build using npm scripts
-- frontend best practices support
+1. **Responsive Design Complexity**: Ensuring the page looked and functioned well across various devices required meticulous attention to detail. Adapting the design to fit the specified screen sizes (desktop, tablet, and mobile) involved extensive testing and fine-tuning of CSS styles.
 
-## Running the Project
+2. **Hamburger Menu Implementation**: Integrating a hamburger menu that worked seamlessly across different screen sizes posed some technical difficulties. Ensuring that the menu was both functional and aesthetically pleasing required implementing JavaScript for interactivity and CSS for styling.
 
-1. Install dependencies:
+3. **Gallery Slider Functionality**: Implementing a smooth and interactive gallery slider was challenging. The slider needed to be both performant and visually appealing, which involved using JavaScript and CSS to achieve the desired user experience.
 
-npm install
+4. **Form Validation and Submission**: Ensuring that forms were user-friendly and validated correctly was another hurdle. The forms needed to handle various input types and provide clear feedback to users. Implementing smooth scroll and ensuring forms did not produce errors on submission required thorough testing and debugging.
 
+5. **Browser Compatibility**: Testing and ensuring compatibility across different browsers and devices was time-consuming. Each browser had its quirks, which required specific adjustments to ensure a consistent experience for all users.
 
-2. Start the local development server:
+Despite these challenges, overcoming them significantly contributed to my growth as a developer. The experience enhanced my skills in responsive design, JavaScript interactions, and cross-browser compatibility, and it provided valuable insights into the practical aspects of web development.
 
-npm start
+## Technical Requirements
+
+To run this project, you will need:
+
+- Node.js (version 14.x or newer)
+- NPM (version 6.x or newer)
+
+## Installation and Setup
+
+To install the project and run it locally, follow these steps:
+
+1. Clone the repository:
+    git clone https://github.com/SoraEmpty/LandingPage.git
 
 
-3. Build the project for production:
-
-npm run build
-
-
-4. Run code checks and linting:
-
-npm run lint
+2. Navigate to the project directory:
+    cd museum-landing-page
 
 
-## Additional Scripts
+3. Install dependencies:
+    npm install
 
-- `npm run test` — runs linting and test tasks
-- `npm run deploy` — deploys the project (depends on `mate-scripts` configuration)
-- `npm run update` — updates project tooling after installation
+4. Start the local development server:
+    npm start
 
-## Demo
+## Usage
 
-View the live demo at:
-https://SoraEmpty.github.io/LandingPage
+After starting the project, it will be available at `http://localhost:8080`. You can use this project to showcase information about the museum and interact with various elements.
 
-## Project Goal
+## Example
 
-The main goal is to improve frontend development skills, learn how to split styles into logical blocks, work with modern build tools, and maintain code quality using linters.
+- [DEMO LINK](https://SoraEmpty.github.io/LandingPage)
+
+## Technologies Used
+
+This project was built using the following technologies:
+
+- **HTML5**: For structuring the content on the web page.
+- **CSS3**: For styling the web page and making it responsive.
+- **Sass (SCSS)**: A CSS preprocessor used for writing cleaner and more manageable CSS.
+- **JavaScript (ES6)**: For adding interactivity to the web page.
+- **Node.js**: For running JavaScript on the server side.
+- **NPM**: For managing project dependencies.
+- **Parcel**: A web application bundler used for building and optimizing the project.
+- **Git**: For version control.
+- **GitHub**: For hosting the repository and project management.
+
+## Design Specifications
+
+- **Design Sizes**:
+  - Desktop: 1280px
+  - Tablet: 640px
+  - Mobile: > 320px
