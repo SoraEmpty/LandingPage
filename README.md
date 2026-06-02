@@ -18,7 +18,7 @@ Automated build process with Gulp
 Code quality control using Stylelint
 Reusable styles through mixins and variables
 
-DEMO LINK https://github.com/SoraEmpty/LandingPage
+DEMO LINK https://SoraEmpty.github.io/LandingPage
 
 Project Goal
 
